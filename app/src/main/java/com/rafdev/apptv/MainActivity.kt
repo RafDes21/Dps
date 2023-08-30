@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initRecyclarView() {
         adapter = DataAdapter(dataItems)
-        binding.rvItems.layoutManager = LinearLayoutManager(this)
+        binding.rvItems.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.rvItems.adapter = adapter
     }
 
