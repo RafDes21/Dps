@@ -1,11 +1,11 @@
-package models
+package com.rafdev.apptv.models
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitClient {
 
-    private fun getRetrofit(): Retrofit {
+    fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
             .baseUrl("http://ecu.dpsgo.com/")
             .addConverterFactory(GsonConverterFactory.create())

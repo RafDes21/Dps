@@ -1,4 +1,4 @@
-package models
+package com.rafdev.apptv.models
 
 data class DataModel(
     val status: String,

@@ -1,4 +1,4 @@
-package models
+package com.rafdev.apptv.models
 
 import retrofit2.Response
 import retrofit2.http.GET
