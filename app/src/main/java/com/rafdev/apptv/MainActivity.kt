@@ -62,12 +62,14 @@ class MainActivity : AppCompatActivity(), OnCardClickListener {
     }
 
     override fun onCardClick(m3u8Url: String) {
+        player.stop()
         // Mostrar la URL en un Toast
         //Toast.makeText(this, m3u8Url, Toast.LENGTH_SHORT).show()
         val mediaItem = MediaItem.fromUri(Uri.parse(m3u8Url))
         // Clear the current playlist and add the new MediaItem
         player.clearMediaItems()
-        player.addMediaItem(mediaItem)
+        //player.addMediaItem(mediaItem)
+        player.setMediaItem(mediaItem)
         // Prepare the new video
         player.prepare()
         // Play the new video immediately
