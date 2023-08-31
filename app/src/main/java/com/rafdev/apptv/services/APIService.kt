@@ -6,5 +6,5 @@ import retrofit2.http.GET
 interface ApiService {
 
     @GET("streaming_test.json")
-    suspend fun getData(): Response<DataModel>
+    suspend fun getData(): Response<ResponseModel>
 }
