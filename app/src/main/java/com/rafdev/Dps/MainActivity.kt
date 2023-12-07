@@ -40,7 +40,12 @@ class MainActivity : AppCompatActivity(), OnCardClickListener {
         initRecyclarView()
         initVideo()
         loadVideoData()
-        
+        pruebas()
+
+    }
+
+    private fun pruebas() {
+       Toast.makeText(this, "es una prueba", Toast.LENGTH_SHORT).show()
     }
 
     private fun initVideo() {
@@ -53,6 +58,8 @@ class MainActivity : AppCompatActivity(), OnCardClickListener {
         player.play()
 
     }
+
+
 
     private fun viewGonePogressBar() {
         player.addListener(object : Player.Listener {
