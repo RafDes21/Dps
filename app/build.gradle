@@ -45,6 +45,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    implementation 'com.huawei.hms:ads-prime:3.4.67.300'
+
     //exoplayer
     implementation 'com.google.android.exoplayer:exoplayer:2.15.0'
     //retrofit
