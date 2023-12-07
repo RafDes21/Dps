@@ -1,4 +1,4 @@
-package com.rafdev.apptv.clients
+package com.rafdev.Dps.clients
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

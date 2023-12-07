@@ -1,10 +1,10 @@
-package com.rafdev.apptv.adapter
+package com.rafdev.Dps.adapter
 
 import android.graphics.Color
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.rafdev.apptv.databinding.ItemCardBinding
-import com.rafdev.apptv.models.VideoItemModel
+import com.rafdev.Dps.models.VideoItemModel
+import com.rafdev.dps.databinding.ItemCardBinding
 
 
 class DataViewHolder(view:View) : RecyclerView.ViewHolder(view) {

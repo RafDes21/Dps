@@ -1,4 +1,4 @@
-package com.rafdev.apptv.adapter
+package com.rafdev.Dps.adapter
 
 interface OnCardClickListener {
 

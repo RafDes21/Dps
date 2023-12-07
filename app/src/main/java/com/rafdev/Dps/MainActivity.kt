@@ -1,30 +1,22 @@
-package com.rafdev.apptv
+package com.rafdev.Dps
 
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.ProgressBar
-import android.widget.RelativeLayout
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.exoplayer2.MediaItem
 import com.google.android.exoplayer2.Player
 import com.google.android.exoplayer2.SimpleExoPlayer
-import com.huawei.hms.ads.AdListener
-import com.huawei.hms.ads.AdParam
-import com.huawei.hms.ads.BannerAdSize
-import com.rafdev.apptv.adapter.OnCardClickListener
-import com.rafdev.apptv.clients.RetrofitClient
-import com.rafdev.apptv.databinding.ActivityMainBinding
-import com.rafdev.apptv.models.*
+import com.rafdev.Dps.adapter.OnCardClickListener
+import com.rafdev.Dps.clients.RetrofitClient
+import com.rafdev.Dps.models.*
 import kotlinx.coroutines.*
 import retrofit2.Response
 
-import com.huawei.hms.ads.HwAds;
-import com.huawei.hms.ads.banner.BannerView
-
+import com.rafdev.dps.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity(), OnCardClickListener {
@@ -48,12 +40,7 @@ class MainActivity : AppCompatActivity(), OnCardClickListener {
         initRecyclarView()
         initVideo()
         loadVideoData()
-
-        HwAds.init(this);
-        val bottomBannerView: BannerView? = binding?.hwBannerView
-        val adParam = AdParam.Builder().build()
-        bottomBannerView?.loadAd(adParam)
-
+        
     }
 
     private fun initVideo() {

@@ -1,11 +1,11 @@
-package com.rafdev.apptv.models
+package com.rafdev.Dps.models
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.rafdev.apptv.R
-import com.rafdev.apptv.adapter.DataViewHolder
-import com.rafdev.apptv.adapter.OnCardClickListener
+import com.rafdev.Dps.adapter.DataViewHolder
+import com.rafdev.Dps.adapter.OnCardClickListener
+import com.rafdev.dps.R
 
 
 class DataAdapter(

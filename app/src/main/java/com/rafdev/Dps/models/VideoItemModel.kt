@@ -1,4 +1,4 @@
-package com.rafdev.apptv.models
+package com.rafdev.Dps.models
 
 data class VideoItemModel(
  val key: String,
