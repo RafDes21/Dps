@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo de color -->
+    <item
+        android:width="72dp"
+        android:height="72dp"
+        android:drawable="@drawable/rounded_background"
+        android:gravity="center" />
+
+    <item
+        android:width="65dp"
+        android:height="20dp"
+        android:drawable="@drawable/ic_sinal"
+        android:gravity="center" />
+</layer-list>
